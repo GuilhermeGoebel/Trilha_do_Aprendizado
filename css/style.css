@@ -1,0 +1,74 @@
+body{
+    margin-top: 1.1%;
+    margin-left: 1.1%;
+    margin-right: 1.1%;
+    background: linear-gradient(to right, #6FB3B8, #BADFE7);
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    color:#9AEBA3;
+}
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(16, 16, 129), rgb(27, 27, 170));
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    text-align: center;
+}
+.logo img{ 
+    width: 60%; 
+    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0.5%;
+}
+.title{
+    padding-top: 1.5%;
+    color: #13678A;
+    font-size: 350%;
+}
+.principal{
+    
+    display: inline-block;
+    margin-left: 10%;
+   
+}
+.link{
+    margin-bottom: 1%;
+}
+.rodape{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.navegacao{
+    overflow: hidden;
+    position: relative;
+    left: 210%;
+    top: 70%;
+    font-size: 200%;
+    
+}
+
+.navegacao a{ 
+    float: right; 
+    color: rgb(140, 151, 144);;
+    text-decoration:none; 
+    padding: 10px;
+    
+}
+.navegacao a:hover{
+    color:#9AEBA3;
+}

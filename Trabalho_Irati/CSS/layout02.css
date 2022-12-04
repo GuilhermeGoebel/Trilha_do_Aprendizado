@@ -1,0 +1,219 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0 auto; 
+    background-size: cover;
+    background: linear-gradient(to right, #6FB3B8, #BADFE7);
+}
+
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(4, 4, 73), rgb(16, 16, 129));
+    position: sticky;
+    top: 0;
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{ 
+    float: right; 
+    color: rgb(140, 151, 144);;
+    text-decoration:none; 
+    padding:10px;
+}
+.navegacao a:hover{
+    color: #e3e647;
+}
+
+.logo img{ 
+    width: 4%; 
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 7px;
+}
+
+.rodape{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+th, td{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+}
+
+table{
+    border: 1px solid;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.t{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ta{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.graph{
+    border: 1px solid;
+    display: flex;
+    border-radius: 10px;
+    background-color: #388087;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 584px;
+    margin-right: 584px;
+}
+.tb{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.historia{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 200px 10px 200px;
+    border: solid 1px;
+    background-color: #388087;
+    border-radius: 10px;
+    padding: 20px;
+}
+p::selection {
+    color: #c2edce;
+    background-color: #6FB3B8;
+}
+h1::selection {
+    color: #c2edce;
+    background-color: #6FB3B8;
+}
+h2::selection {
+    color: #c2edce;
+    background-color: #6FB3B8;
+}
+.geo{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 200px 10px 200px;
+    border: solid 1px;
+    background-color: #388087;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px #08191a98;
+}
+.piol{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 200px 10px 200px;
+    border: solid 1px;
+    background-color: #388087;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px #08191a98;
+}
+.unty{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 200px 10px 740px;
+    border: solid 1px;
+    background-color: #388087;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px #08191a98;
+}
+.geo img{
+    display: block;
+    margin: 0px auto;
+}
+#localizacao{
+    width: 400px;
+}
+#hidro{ 
+    width: 400px;
+}
+
+.ty{
+    margin-left: 221px;
+}
+.hid{
+    border: solid 1px;
+    background-color: #BADFE7;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 510px;
+    margin-right: 510px;
+}
+
+#clima{
+    width: 400px;
+}
+
+#santa{
+    width: 400px;
+}
+
+#cachoeira{
+    width: 400px;
+    height: 251px;
+}
+#igreja{
+    width: 400px;
+}
+#parque{
+    width: 400px;
+    height: 260px;
+}
+#casa{
+    width: 400px;
+}
+.geral{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 286px;
+}
+.hida{
+    border: solid 1px;
+    background-color: #BADFE7;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 3px;
+}
+#vsanta{
+    width: 400px;
+    height: 251px;
+}
+#vcach{
+    width: 400px;
+    height: 251px;
+}
+#vigre{
+    width: 400px;
+    height: 400px;
+}
+#vpark{
+    width: 400px;
+    height: 260px;
+}
