@@ -24,6 +24,7 @@ header{
     margin-right: 10%;
     border-radius: 15px;
     text-align: center;
+    z-index: 0;
 }
 .logo img{ 
     width: 60%; 
@@ -54,21 +55,31 @@ header{
     
 }
 .navegacao{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
     overflow: hidden;
     position: relative;
-    left: 210%;
-    top: 70%;
+    left: 75%;
     font-size: 200%;
-    
+    z-index: 1;
+    position: absolute;
+    top: 11%;
+    padding: 3%;
 }
 
 .navegacao a{ 
     float: right; 
     color: rgb(140, 151, 144);;
     text-decoration:none; 
-    padding: 10px;
-    
+
 }
 .navegacao a:hover{
     color:#9AEBA3;
 }
+
+.home{
+    position: relative;
+    right: 8%;
+}
+
+
+
