@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídias</title>
+</head>
+<body>
+    <h1>Multimídias</h1>
+        <p>
+            São diversos tipos de mídias, tais como: imagens, vídeos, áudios, sites, etc.
+        </p>
+        <h2>Incorporando Multimídias ao site</h2>
+           
+            
+            <h3>Tag iframe</h3>
+
+            
+            
+            <h3>Incorporar sites</h3>
+
+            <iframe src="https://irati.ifpr.edu.br/" frameborder="1" width="1000px" height="400px"></iframe>
+            
+            <h3>Incorporar áudio</h3>
+
+            <iframe width="300px" height="300px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75390199&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/metal4ever" title="Metal4Ever" target="_blank" style="color: #cccccc; text-decoration: none;">Metal4Ever</a> · <a href="https://soundcloud.com/metal4ever/have-you-ever-seen-the-rain" title="Have You Ever Seen the Rain-Creedence Clearwater Revival (Bass Cover)" target="_blank" style="color: #cccccc; text-decoration: none;">Have You Ever Seen the Rain-Creedence Clearwater Revival (Bass Cover)</a></div>
+            
+            <h3>Incorporar vídeos</h3>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HlBYdiXdUa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <h2>Tag de vídeo</h2>
+        
+        <video poster="video/Bike.jpg" controls>
+
+            <source src="video/_Bike.mp4" type="video/mp4">
+            <source src="video/Bike.ogv" type="video/ogv">
+            <source src="video/Bike.webm" type="video/webm">
+
+        </video>
+        
+        <h2>Tag de áudio</h2>
+
+        <audio preload="metadata" controls>
+
+            <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+            <source src="audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+            <source src="audio/Hey-Sailor-Letter-Box.wav" type="audio/wav"> 
+        
+        </audio>
+        
+        <h2>Tag picture</h2>
+
+        <picture>
+
+            <source media="(max-width:500px)" srcset="img/bike_110.jpg">
+            <source media="(max-width:700px)" srcset="img/bike_320.jpg">
+            <source media="(max-width:900px)" srcset="img/bike_640.jpg">
+            <img src="img/bike_full.jpg" alt="imagem">
+
+        </picture>
+</body>
+</html>
