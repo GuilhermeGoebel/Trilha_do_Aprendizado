@@ -1,0 +1,23 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px 50px 30px 60px;
+    border: solid 1px gray;
+    padding: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+    background-color: darkred;
+    border: dashed 2px deepskyblue;
+    padding: 10px 20px 30px 15px;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+    background-color: darkred;
+    border: dashed 2px deepskyblue;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 300px;
+}

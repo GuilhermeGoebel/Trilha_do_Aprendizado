@@ -1,0 +1,22 @@
+body{ 
+
+    font-family: Arial, Helvetica, sans-serif;
+    /*margin: 100px;*/
+    /*border-style: solid;
+    border-width: 1px;
+    border-top-color: darkblue;
+    border-right-color: red;
+    border-bottom-color: blue;
+    border-left-color: darkred;*/
+    border: 1px solid darkred;
+    padding: 20px;
+    /*margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+    margin-left: 50px;*/
+} 
+
+h1{
+    background-color: deepskyblue;
+}
+    
