@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%; /*Porcentagem da tela do navegador que será ocupada*/
+    margin: 0 auto; /* Distribuição do conteúdo de acordo com a porcentagem da tela que o conteúdo está ocupando no navegador*/
+    background: linear-gradient(to right, #0b1726, #1f3f66); /*degrade*/
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 5px;/*Arredonda o canto da borda em proporcionalidade com o valor selecionado*/
+    margin-top: 10px;
+}
+.logo img{ /*Estilização da imagem do logo*/
+    width: 45%; /*Define o tamanho da imagem em relação ao aumento ou diminuição da largura do navegador*/
+    padding-top: 50px;
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{ /*Estilização dos hiperlinks*/
+    float: right; /*Disposição dos hiperlinks a direita*/
+    color: rgb(173,173,173);
+    text-decoration:none; /*Elimina o sublinhado dos hiperlinks*/
+    padding:10px;
+}
+.navegacao a:hover{
+    color: #e32936;
+}
+
+.principal{
+    display: flex; /*Organiza a disposição do conteúdo, nesse caso colocou as divs de conteúdo uma ao lado da outra*/
+    flex-direction: row;
+}
+
+
+.conteudo{ /*Estilização do conteúdo*/
+    float:left; /*Disposição do conteúdo*/
+    margin: 15px 10px 25px 10px;
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08191a98;
+}
+.rodape{
+    color: darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:600px){ /*responsividade -alteração do layout de acordo com o tamanho da tela*/
+    
+    body,.principal, .conteudo{ /*Definem os escopos a serem alterados*/
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
