@@ -1,0 +1,68 @@
+div{ 
+    background-color: lightskyblue;
+    color: mediumblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b1{
+    background-color: mediumseagreen;
+    color: darkmagenta;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid navy;
+    width: 60px;
+    height: 20px;
+}
+.alfredo{
+    background-color: darkorange;
+    color: darkslateblue;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid darkslategray;
+    width: 60px;
+    height: 20px;
+}
+.agrupamento{
+    background-color: lightseagreen;
+    color: darkslategrey;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid darkslateblue;
+
+}
+#unico{
+    background-color: lightsteelblue;
+    color: darkslategray;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid darkturquoise;
+}
+.personalizado{
+    background-color: rgb(25, 0, 247);
+    color: rgb(255, 0, 157);
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgba(0, 255, 200, 0.37);
+}
+.personalizado:hover{
+    background-color: gold;
+}
+.pseudo::selection{
+    color:red;
+    background-color: yellowgreen;
+}
+.pseudo2:active{
+    color:deeppink;
+}
+.pseudo3::first-letter{
+   color: darkgreen;
+   font-size: x-large;
+}
+.pseudo4::first-line{
+    color: rgb(120, 100, 209);
+    font-variant: small-caps;
+ }
+ .pseudo5::marker{
+    color: red;
+    font-size: 30px;
+ }
+ 
