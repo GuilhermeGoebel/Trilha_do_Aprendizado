@@ -6,7 +6,7 @@ body{
 }
 main{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 185%;
 }
 main a{
     text-decoration: none;
@@ -22,13 +22,11 @@ header{
     flex-direction: row;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 15px;
     text-align: center;
     z-index: 0;
 }
 .logo img{ 
     width: 60%; 
-    border-radius: 5px;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 0.5%;
@@ -49,9 +47,9 @@ header{
 }
 .rodape{
     color: black;
-    font-size: 10px;
+    font-size: 70%;
     text-align: center;
-    padding: 20px;
+    padding: 1%;
     
 }
 .navegacao{
