@@ -85,11 +85,11 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
     overflow: hidden;
     position: relative;
-    left: 75%;
+    left: 74%;
     font-size: 200%;
     z-index: 1;
     position: absolute;
-    top: 11%;
+    top: 14%;
     padding: 3%;
 }
 
